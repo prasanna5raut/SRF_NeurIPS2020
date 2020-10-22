@@ -15,20 +15,18 @@ Once Anaconda is installed, you can now install cvxpy. The following command wil
 
 ```conda install -c conda-forge cvxpy```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
 ## Training
 
-###Online Joke Recommendation
+### Online Joke Recommendation
 - For Figure 1 (a) in paper
 - Data set: jester-data-1.xls
 - Code: JokeRecommendationNeurIPS.py
 
-###Online job assignment in crowdsourcing markets
+### Online job assignment in crowdsourcing markets
 - For Figure 1 (b) in paper
 - Code: crowdsourcingNeurIPSFinal.py
 
-Online welfare maximization with production costs
+### Online welfare maximization with production costs
 - For Figure 1 (c) in paper
 - Code: LogDetNeurIPSFinal.py
 
