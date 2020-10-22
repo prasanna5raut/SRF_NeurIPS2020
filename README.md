@@ -1,62 +1,45 @@
->📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# A Single Recipe for Online Submodular Maximization with Adversarial or Stochastic Constraints
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
-
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+This repository contains implementation of the numerical experiments from the paper.
 
 ## Requirements
 
-To install requirements:
+The algorithms have been implemented using Python 3.7 and the easiest way to install all dependencies is to install Anaconda first.
 
-```setup
-pip install -r requirements.txt
-```
+To install Anaconda, visit the official website:
+
+```https://docs.anaconda.com/anaconda/install/```
+
+Once Anaconda is installed, you can now install cvxpy. The following command will install cvxpy:
+
+```conda install -c conda-forge cvxpy```
 
 >📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training
 
-To train the model(s) in the paper, run this command:
+###Online Joke Recommendation
+- For Figure 1 (a) in paper
+- Data set: jester-data-1.xls
+- Code: JokeRecommendationNeurIPS.py
 
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
+###Online job assignment in crowdsourcing markets
+- For Figure 1 (b) in paper
+- Code: crowdsourcingNeurIPSFinal.py
 
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+Online welfare maximization with production costs
+- For Figure 1 (c) in paper
+- Code: LogDetNeurIPSFinal.py
 
-## Evaluation
+### Pareto optimal Plot
+- For Figure 1 (a) in supplement
+- Code: paretoPlot.py (It just generates the figure and this code doesn’t run any experiment)
 
-To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
-
-## Pre-trained Models
-
-You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+### Dynamic regret benchmarks
+- For Figure 1 (b) in supplement
+- Code: supplementDynamicRegretNeurIPS.py
 
 ## Results
 
-Our model achieves the following performance on :
-
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
-
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
+For each of the experiment/plot, we recommend opening a new Jupyter notebook and running the code in this notebook. This allows you to play with the parameters and plot the results easily.
