@@ -1,11 +1,11 @@
 
 # A Single Recipe for Online Submodular Maximization with Adversarial or Stochastic Constraints
 
-This repository contains implementation of the numerical experiments from the \textit{NeurIPS 2020} paper titled as above.
+This repository contains implementation of the numerical experiments from the NeurIPS 2020 paper titled as above.
 
 The authors are:
 - Omid Sadeghi, Department of Electrical and Computer Engineering, University of Washington, Seattle.
-- Prasanna Raut Department of Mechanical Engineering, University of Washington, Seattle.
+- Prasanna Raut, Department of Mechanical Engineering, University of Washington, Seattle.
 - Maryam Fazel, Department of Electrical and Computer Engineering, University of Washington, Seattle.
 
 ## Requirements
